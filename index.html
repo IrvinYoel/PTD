@@ -3,28 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <title>Precision Truck Diesel</title>
   </head>
   <body>
-    <header>
-      <div class="container-header">
-        <div class="img-logo">
-          <img src="assets/logo.jpg" alt="logo-empresa" />
-        </div>
-        <nav class="navegation">
-          <ul>
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Servicios</li>
-            <li>Marcas</li>
-            <li>Contacto</li>
-          </ul>
-        </nav>
-        <h1>Precision Truck Diesel</h1>
-        <img src="assets/taller.jfif" alt="taller" />
-      </div>
+    <div class="container-nav">
+      <img id="logo" src="assets/logo.jpg" alt="img-logo" />
+      <nav class="navegation">
+        <ul>
+          <li>Inicio</li>
+          <li>Nosotros</li>
+          <li>Servicios</li>
+          <li>Marcas</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <h1 id="text-header">Precision Truck Diesel</h1>
+      <img src="assets/taller.jfif" alt="taller" id="img-taller" />
     </header>
-    <main></main>
+    <main>
+      <section class="container-home">
+        <div class="services-home">
+          <h3>Servicios</h3>
+          <p>
+            Brindamos un buen servicio de mantenimiento y reparación de
+            vehículos automotores con las herramientas óptimas y modernas para
+            satisfacer las necesidades del cliente en el menor tiempo posible.
+          </p>
+        </div>
+        <div class="spareparts-home">
+          <h3>Repuestos</h3>
+          <p>
+            Brindamos los mejores repuestos en marcas reconocidas para tu unidad
+          </p>
+        </div>
+      </section>
+      <section class="ubicacion"></section>
+    </main>
     <footer></footer>
   </body>
 </html>
