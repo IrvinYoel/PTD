@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Nav */
 #img-logo {
   width: 200px;
 }
@@ -25,6 +26,7 @@
   list-style-type: none;
 }
 
+/* Header */
 #text-header {
   font-size: 100px;
   width: 485px;
@@ -47,9 +49,17 @@
   height: 500px;
   display: flex;
   justify-content: space-between;
-  padding: 50px 75px 50px 75px;
+  padding: 137.5px 75px 137.5px 75px;
 }
 
-.services-home {
+/* Main */
+.home {
   width: 594px;
+  height: 225px;
+}
+
+.texthome {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
