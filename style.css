@@ -28,8 +28,8 @@
 
 /* Header */
 #text-header {
-  font-size: 100px;
-  width: 485px;
+  font-size: 115px;
+  width: 560px;
   height: 400px;
 }
 
@@ -68,4 +68,10 @@
 #ubication {
   display: flex;
   justify-content: center;
+}
+
+/*Footer*/
+#logofooter {
+  width: 200px;
+  height: 100px;
 }
