@@ -63,3 +63,9 @@
   display: flex;
   justify-content: center;
 }
+
+/*Ubicación*/
+#ubication {
+  display: flex;
+  justify-content: center;
+}
