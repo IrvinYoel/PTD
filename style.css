@@ -6,11 +6,8 @@
 }
 
 /* Nav */
-#img-logo {
-  width: 200px;
-}
 
-.container-nav {
+.nav {
   width: auto;
   height: 80px;
   display: flex;
@@ -18,12 +15,18 @@
   padding: 17px 75px 17px 75px;
 }
 
-.navegation > ul {
-  width: 450px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style-type: none;
+.nav .logo img {
+  cursor: pointer;
+  height: 46px;
+  transition: all 0.3s;
+}
+
+.nav .logo img:hover {
+  transform: scale(1.1);
+}
+
+.nav .nav-links {
+  list-style: none;
 }
 
 /* Header */
@@ -68,6 +71,7 @@
 #ubication {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /*Footer*/
