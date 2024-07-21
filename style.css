@@ -10,8 +10,9 @@ nav {
   display: flex;
   align-items: center;
 }
+
 .nav {
-  width: auto;
+  min-width: 1446;
   height: 80px;
   display: flex;
   justify-content: space-between;
