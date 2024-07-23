@@ -81,14 +81,22 @@ nav {
 
 /* Main */
 .home {
-  width: 594px;
+  width: 595px;
   height: 225px;
+}
+
+.home .texthome {
+  font-size: 50px;
 }
 
 .texthome {
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
+}
+
+.container-home p {
+  font-size: 25px;
 }
 
 /*Ubicación*/
